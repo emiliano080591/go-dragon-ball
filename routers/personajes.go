@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/emiliano080591/dragon/bd"
-	"github.com/emiliano080591/dragon/models"
+	"github.com/emiliano080591/go-dragon-ball/bd"
+	"github.com/emiliano080591/go-dragon-ball/models"
 	"github.com/gorilla/mux"
 )
 

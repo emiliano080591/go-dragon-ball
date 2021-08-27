@@ -3,7 +3,7 @@ package bd
 import (
 	"fmt"
 
-	"github.com/emiliano080591/dragon/models"
+	"github.com/emiliano080591/go-dragon-ball/models"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

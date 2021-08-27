@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/emiliano080591/dragon/routers"
+	"github.com/emiliano080591/go-dragon-ball/routers"
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"
 )
