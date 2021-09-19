@@ -16,6 +16,7 @@ func Manejadores() {
 
 	router.HandleFunc("/getPersonajes", routers.ObtenerPersonajes).Methods("GET")
 	router.HandleFunc("/personaje/{id}", routers.ObtenerPersonaje).Methods("GET")
+	router.HandleFunc("/personajes/{id}", routers.ObtenerPersonaje).Methods("GET")
 	router.HandleFunc("/personaje", routers.CrearPersonaje).Methods("POST")
 	router.HandleFunc("/personaje/{id}", routers.ActualizarPersonaje).Methods("PUT")
 	router.HandleFunc("/personaje/{id}", routers.BorrarPersonaje).Methods("DELETE")
